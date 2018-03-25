@@ -1,0 +1,73 @@
+h4, h2, h3{
+	text-align: center;
+}
+h1{
+	color: red;
+	font: bold;
+}
+h2{
+	text-align: center;
+	color: LAWNGREEN;
+}
+h3{
+	text-align: center;
+	color: orange;
+}
+h4{
+  text-align:center;
+  color:white;
+}
+section{
+  display: inline-block;
+  text-align: left;  
+  margin: 0 100px;
+  margin-bottom:10px;
+}
+article{
+	display: inline-block;
+	border: 5px solid red;
+	vertical-align: top;
+	background-color: yellow;
+	overflow-y: auto;
+	width: 200px;
+	height: 200px;
+	transition: all 1s ease;
+}
+div{
+  display:inline-block;
+}
+footer{
+  text-align:center;
+   background-color:magenta;
+  
+}
+body{
+ text-align: center;
+  background-image:url(./map_Eth.jpg)
+}
+.fot:hover{
+  color:lime;
+}
+img{
+  border: 5px solid red;
+  transition: all 1s ease;
+}
+img:hover{
+  border-color:yellow;
+}
+article:hover{
+  border-color:purple;
+}
+#na{
+	height:1200px;
+	width:1183px;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
